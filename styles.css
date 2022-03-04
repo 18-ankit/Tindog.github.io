@@ -1,0 +1,335 @@
+
+
+
+
+body{
+    font-family: 'Ubuntu' , sans-serif;
+   
+}
+
+
+
+
+h1{
+    font-family: 'Montserrat' ,sans-serif;
+    
+    
+}
+
+
+
+
+h2{
+    font-family: 'Montserrat-Bold' , sans-serif;
+    font-size: 2.5rem;
+    line-height: 4.5rem;
+    font-weight: 700;
+}
+
+
+
+
+
+h3{
+    font-family: 'Montserrat-Bold' , sans-serif;
+}
+
+
+
+
+p{
+    color: #8f8f8f ;
+}
+
+
+
+
+#title{
+    background-color: #ff4c68;
+}
+
+
+
+
+.p1{
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 1000;
+    font-size: 22px;
+}
+
+
+
+
+.h1{
+    font-family: 'Montserrat' ,sans-serif;
+    line-height: 1.6;
+    font-weight: bold;
+    color:azure;
+    font-size: 3.4rem;
+
+}
+
+
+
+
+.h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    font-size: 38px;
+}
+
+
+
+.h3{
+    font-family: 'Ubuntu' , sans-serif;
+    font-weight: 1000;
+    line-height: 1.7;
+    font-size: 2.9rem;
+    color: #fff;
+}
+
+
+
+.container-fluid{
+    padding:  3%  15%  3%;
+}
+
+
+
+
+
+/*   Navigation - Bar  */
+
+
+
+
+
+.navbar{
+    padding: 0 0 4.5rem;
+}    
+
+
+.nav-item{
+    padding: 0 30px;
+    font-family: 'Ubuntu', sans-serif;
+   
+    font-weight: bolder;
+}
+
+.nav-link{
+    font-size: 22px;
+
+}
+
+
+
+
+/*  Downlaod - Buttons  */
+
+
+
+
+.Download-button{
+    margin: 6.4% 3% 5% 0;
+}
+
+
+.cta-button{
+    margin: 4.5% 1%;
+}
+
+
+
+
+/*  Title - Image  */
+
+
+
+.title-image{
+    width: 21%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+
+}
+
+
+
+
+
+/*  Features */
+
+
+
+#features{
+    padding: 6% 14%;
+    background-color: #fff;
+    position: relative;
+    
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+
+
+
+/*   Testimonial Section  */
+
+
+
+
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffff;
+}
+
+.testimonial-image{
+    border-radius: 100%;
+    width: 14%;
+    margin: 20px;
+}
+
+
+.testimonial-text{
+    font-family: 'ubuntu' , sans-serif;
+    font-weight: 1000;
+}
+
+
+/*  Press Section  */
+
+
+
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 11%;
+    margin: 20px 20px 50px;
+}
+
+
+
+
+/*   Carousel  item   */
+
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+
+
+/*  CARD    */
+
+
+
+
+/*  Card - Row     */
+
+.row{
+    margin: 5%;
+}
+
+
+
+
+
+/* Sign-up button  */
+
+
+
+
+
+/* Pricing section */
+
+
+
+#pricing{
+    padding: 90px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+.pricing-text{
+    font-family: 'ubuntu', sans-serif;
+    font-weight: 1000;
+    font-size: 3.1rem;
+}
+
+
+/*     MEDIA - QUERY    */
+
+
+
+@media (max-width: 1028px){
+    
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        width: 60%;
+        position: static;
+        margin-top: 3rem;
+        transform: rotate(0);
+    }
+}
+
+
+
+
+
+/*      CTA - SECTION       */
+
+
+
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 0 2.5% 0 ;
+}
+
+
+
+
+
+/*    FOOTER - SECTION     */
+
+
+
+#footer{
+    text-align: center;
+    padding: 7%  15% ;
+}
+
+
+
+.social-icons{
+    margin: 20px 10px ;
+}
